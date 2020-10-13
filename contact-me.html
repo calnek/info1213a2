@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+
+  <!-- This makes website responsive for all devices, makes zooming in with a touch device works properly and helps render the site for mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+DW+Pica+SC&family=Rock+Salt&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand brand"><img class="brand-elder-sign" src="images/Elder_sign.jpg" alt="Elder-sign">H.P. Lovecraft</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav navbar-list">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="contact-me.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="contact-section">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col">
+          <h2>Contact Form:</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="contact-paragraph"><strong>Enter your details below if you wish to get in contact with me and I shall reply within 48 hours*</strong></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <form class="contact-form" action="mailto:fakeemail@email.com" method="post" enctype="text/plain">
+        <div class="form-row justify-content-center">
+          <div class="col-4 form-columns">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col-4 form-columns">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-row justify-content-center">
+          <div class="col-8 form-columns">
+            <input type="email" class="form-control" placeholder="name@example.com">
+          </div>
+        </div>
+        <div class="form-row justify-content-center">
+          <div class="col-8 form-columns">
+            <textarea class="form-control" rows="5" cols="100" placeholder="Enter Message Here"></textarea>
+          </div>
+        </div>
+        <div class="form-row justif-content-center">
+          <div class="col form-columns">
+            <button type="submit" class="btn btn-lg btn-outline-dark">Submit</button>
+          </div>
+        </div>
+      </form>
+
+      <hr>
+
+      <div class="row">
+        <div class="col">
+          <p><em>*Please do not actually contact me, I have been dead since March 15, 1937 and will not get back to you ever</em></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>

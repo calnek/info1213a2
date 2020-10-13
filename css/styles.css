@@ -1,0 +1,249 @@
+/**********************TAG SELECTORS**********************/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1e9f3;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 4.0625rem;
+}
+
+h2 {
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-size: 3.125rem;
+}
+
+hr {
+  border-style: dashed;
+  border-color: #838383;
+  width: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-size: 2.95rem;
+}
+
+p {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+li {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+table {
+  border-spacing: 20px;
+  margin: auto;
+}
+
+/** Title Section **/
+#title-section {
+  margin-bottom: 5%;
+}
+
+.navbar-list {
+  text-align: center;
+}
+
+.brand {
+  font-family: 'Rock Salt';
+}
+
+.brand-elder-sign {
+  width: 50px;
+}
+
+.jumbotron {
+  background-color: #c3aed6;
+  text-align: center;
+}
+
+.title-container {
+  padding: 0;
+}
+
+.top-headers {
+  margin: 2%;
+}
+
+.Portrait {
+  border-radius: 100%;
+  width: 20rem;
+}
+
+.title-tentacles {
+  width: 40rem;
+}
+
+@media (max-width: 1550px) {
+  .title-tentacles {
+    display: none;
+  }
+}
+
+/** Who Am I **/
+#who-am-I {
+  margin-bottom: 7%;
+}
+
+.who-am-I-header {
+  margin-bottom: 4%;
+}
+
+.side-tentacle-bunch-left {
+  width: 600px;
+}
+
+@media (max-width: 1150px) {
+  .side-tentacle-bunch-left {
+    width: 400px;
+  }
+}
+
+@media (max-width: 990px) {
+  .side-tentacle-bunch-left {
+    transform: rotate(-90deg);
+  }
+}
+
+.bottom-headers {
+  color: #9d65c9;
+}
+
+/** Skills **/
+#skills {
+  margin-bottom: 7%;
+}
+
+.My-Skills {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1150px) {
+  .note {
+    width: 300px;
+  }
+}
+
+/** Sample Works **/
+#sample-works {
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.samples-header {
+  margin-bottom: 3%;
+}
+
+.top-card {
+  margin-top: 3%;
+}
+
+.card {
+  text-align: center;
+  background-color: #f1e9f3;
+}
+
+.card-pics {
+  width: 55rem;
+  height: 40rem;
+}
+
+.card-title {
+  font-family: 'IM Fell DW Pica SC';
+}
+
+.card-text {
+  font-family: 'Cutive Mono';
+  font-size: 1.35rem;
+}
+
+.card-footer-text {
+  font-size: 1.15rem;
+}
+
+/** 3 Books To Get Started **/
+#three-books {
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+#book-carousel {
+  margin-bottom: 5%;
+}
+
+.three-books-header {
+  margin-bottom: 4%;
+}
+
+.carousel-headers {
+  font-family: 'IM Fell DW Pica SC';
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
+
+.carousel-image {
+  margin-bottom: 2%;
+}
+
+.book-images {
+  height: 517px;
+  width: 353px;
+  margin-bottom: 2%;
+}
+
+.contact-button {
+  font-family: 'IM Fell DW Pica SC';
+  font-size: 2rem;
+}
+
+/** Other Authors **/
+#other-authors {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.author-images {
+  width: 25rem;
+}
+
+/** Footer **/
+#footer {
+  background-color: #9d65c9;
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 0;
+}
+
+.small-footer-text {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.links {
+  color: #fff;
+}
+
+/** Contact Page **/
+#contact-section {
+  text-align: center;
+}
+
+.contact-form {
+  padding: 1%;
+}
+
+.form-columns {
+  padding: 0.5%;
+}
